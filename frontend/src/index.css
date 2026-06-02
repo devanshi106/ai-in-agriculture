@@ -1,0 +1,67 @@
+/* Core Styling & Design Tokens for AgroIntel */
+
+:root {
+  --bg-app: #08090c;
+  --bg-sidebar: #0f111a;
+  --bg-card: rgba(22, 24, 33, 0.7);
+  --bg-card-hover: rgba(28, 31, 43, 0.85);
+  
+  --border-color: rgba(255, 255, 255, 0.08);
+  --border-hover: rgba(255, 255, 255, 0.15);
+  
+  --text-primary: #f3f4f6;
+  --text-secondary: #9ca3af;
+  --text-muted: #6b7280;
+  
+  /* Color Accents */
+  --color-accent-green: #4ade80;       /* Crop Advisor color */
+  --color-accent-blue: #38bdf8;        /* Fertilizer Advisory color */
+  --color-accent-amber: #fbbf24;       /* Yield Forecasting color */
+  
+  --glow-green: rgba(74, 222, 128, 0.15);
+  --glow-blue: rgba(56, 189, 248, 0.15);
+  --glow-amber: rgba(251, 191, 36, 0.15);
+  
+  /* Fonts */
+  --font-heading: 'Outfit', system-ui, sans-serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--bg-app);
+  color: var(--text-primary);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.5;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+/* Scrollbar customization */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-app);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border-color);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--text-muted);
+}
