@@ -234,6 +234,11 @@ select.input-field {
   padding-right: 40px;
 }
 
+select.input-field option {
+  background-color: #12131a; /* Dark background matching the theme */
+  color: var(--text-primary); /* Ensure text color is light and readable */
+}
+
 /* Submit Buttons */
 .submit-btn {
   grid-column: span 2;
