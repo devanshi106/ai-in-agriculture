@@ -7,8 +7,16 @@ AgroIntel is an advanced full-stack decision-support system designed to empower 
 ## 🌾 Core Agronomic Features
 
 * **🌾 Crop Advisor**: Recommends the best crop to cultivate based on soil chemical composition (N, P, K), pH level, and climate parameters (temperature, humidity, rainfall).
+  
+  ![Crop Advisor Interface](docs/assets/crop_advisor_preview.png)
+
 * **🧪 Fertilizer Guide**: Recommends optimal fertilizer dosage (such as Urea, DAP, or specific NPK complex mixes) based on crop type, soil structure (Sandy, Clayey, Loamy, etc.), moisture levels, and soil nutrients.
+  
+  ![Fertilizer Guidance Interface](docs/assets/fertilizer_guide_preview.png)
+
 * **📈 Yield Forecaster**: Forecasts expected agricultural yield (tonnes/hectare) using historical parameters, regional details, cultivation season, area size, and pesticide usage.
+  
+  ![Yield Forecaster Interface](docs/assets/yield_forecaster_preview.png)
 
 ---
 
